@@ -13,12 +13,10 @@ The concept is simple,
 The project uses NMAP which is 'Nmap (Network Mapper) is a security scanner used to discover hosts and services on a computer network, thus creating a "map" of the network. 
 
 Load the LX Terminal:
-
 sudo apt-get install nmap
-
 pip install python3-nmap
 
-Simple usage is:
+# Simple usage is:
 
 nm = nmap.PortScanner()
 data = nm.scan(hosts="192.168.1.1/24", arguments="-sP")
