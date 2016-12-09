@@ -18,6 +18,8 @@ sudo apt-get install nmap
 pip install python3-nmap
 
 # Simple usage is:
+import nmap
+
 nm = nmap.PortScanner()
 
 data = nm.scan(hosts="192.168.1.1/24", arguments="-sP")
