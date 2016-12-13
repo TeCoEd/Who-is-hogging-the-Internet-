@@ -17,6 +17,8 @@ sudo apt-get install nmap
 
 pip install python3-nmap
 
+sudo apt-get install espeak python-espeak
+
 # Simple usage is:
 import nmap
 
